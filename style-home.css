@@ -1,0 +1,66 @@
+
+main{
+	background: linear-gradient(45deg,#02220c,#003d14,#7c4b02,#CE7D00); background-size: 300% 300%;
+	animation: main 3s infinite
+}
+
+@keyframes main {
+
+0%{background-position: 0% 50%;
+}
+
+50%{
+background-position: 100% 50%;
+}
+
+100%{
+background-position: 0% 50%;
+}
+
+}
+
+.principal{
+	background: #164902;
+	padding: 30px;
+}
+
+.titulo-principal {
+	background: #164902;
+	padding-left: 20px;
+}
+
+.titulo-centralizado {
+	text-align: center
+}
+
+p {
+	text-align: center;
+}
+
+#missao {
+	font-size: 20px
+}
+
+em strong {
+	color: #FF0000;
+}
+
+.itens {
+	font-style: italic
+}
+
+.beneficios {
+	background: #257e02;
+	padding: 20px;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagembeneficios {
+	width: 50%;
+}

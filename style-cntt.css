@@ -1,0 +1,153 @@
+header{
+    background-color: #02220c;
+	padding: 10px 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(99, 90, 7);
+    text-shadow: 0.1em 0.1em 0.05em rgb(0, 0, 0)
+}
+
+nav a:hover{
+    color: rgb(155, 140, 7);
+    text-decoration: underline;
+}
+
+
+.fundo{
+    background: linear-gradient(45deg,#02220c,#003d14,#7c4b02,#CE7D00); background-size: 300% 300%;
+    animation: fundo 3s infinite
+}
+
+@keyframes fundo{
+
+0%{background-position: 0% 50%;
+}
+
+50%{
+background-position: 100% 50%;
+}
+
+100%{
+background-position: 0% 50%;
+}
+}
+
+
+main{
+    background: linear-gradient(45deg,#02220c,#003d14,#7c4b02,#CE7D00); background-size: 300% 300%;
+    animation: main 3s infinite
+}
+
+@keyframes main{
+
+0%{background-position: 0% 50%;
+}
+
+50%{
+background-position: 100% 50%;
+}
+
+100%{
+background-position: 0% 50%;
+}
+
+}
+
+main{
+     width: 700px;
+     margin: 0 auto;
+}
+
+form{
+margin: 100px 0;
+
+}
+
+form label,form legend{
+    border-style: ridge;
+    display: block;
+    margin: 0 0 10px;
+    font-weight: bold;
+    color: rgb(131, 118, 6);font-size: 16px;
+    text-shadow: 0.1em 0.1em 0.05em rgb(0, 0, 0)
+    
+    
+}
+
+.input-padrao{
+     display: block;
+     margin: 0 0 20px;
+     padding: 10px 25px;
+     width: 50%;
+
+}
+
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    cursor: pointer;
+    width: 40%;
+    border: #7c4b02;
+    border-style: ridge;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 0;
+    transition: 0.5s background;
+    border-radius: 8px;
+    background-color: #012e10;
+    color: rgb(139, 127, 11);
+    text-shadow: 0.1em 0.1em 0.05em rgb(0, 0, 0)
+
+}
+
+.enviar:hover{
+font-size: 17px;
+background: #003d14;
+
+}
+
+.horarios{
+    text-align: center;
+    width: 40%;
+    padding: 8px;
+    font-size: 18px;
+    border: #775c05;
+    margin-left: 30%;
+    border-style: ridge; left: 50%;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #012e10;
+    color: rgb(105, 95, 4);
+    text-shadow: 0.1em 0.1em 0.05em rgb(0, 0, 0)
+    
+}
+
+
+
+footer{
+    text-align: center;
+    background: rgb(37, 99, 36);
+    background-image: url("firmino's barber.jpg");
+    background-repeat: repeat;
+    padding: 80px 0;
+
+}
+
+.copyright{
+color: aliceblue;
+
+font-size: 13px;
+margin: 20px 0 0;
+}
